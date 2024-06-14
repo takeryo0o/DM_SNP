@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DM能力表示サイト</title>
+    <meta name="description" content="クリックするとランダムに能力が付与されるウェブサイトです。">
+    <meta name="keywords" content="ランダム, 文字, 表示, ボタン, ウェブサイト,DM,デュエルマスターズ,能力">
+    <meta name="author" content="あなたの名前">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #container {
+            text-align: center;
+        }
+        #randomText {
+            margin-top: 20px;
+            font-size: 24px;
+        }
+        #randomText2 {
+            margin-top: 10px;
+            font-size: 24px;
+        }
+        #description {
+            margin-bottom: 20px;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="description">クリックするとランダムに能力が表示されます</div>
+        <button id="randomButton">†能力を表示†</button>
+        <div id="randomText"></div>
+        <div id="randomText2"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
